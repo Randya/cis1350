@@ -1,0 +1,27 @@
+/*
+   Author: Randy Cramer
+   Date: 9/15/2015
+*/
+
+body {
+    font-size: 1.2em;
+    font-family: Arial, Tahoma, Trebuchet, sans-serif;
+    background-color: #e6e6fa;
+}
+
+em {
+    color: green;
+    font-weight: bold;
+}
+
+h3 {
+    /*
+    color: maroon;
+    color: #800000
+    */
+    color: rgb(128, 0, 0);
+    text-transform: uppercase;
+    text-align: right;
+    font-size: 1.3em;
+    font-family: Times, "Times New Roman", Georgia, serif;
+}

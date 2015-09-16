@@ -1,0 +1,42 @@
+/*
+    Classic Taxi
+    Layout Stylesheet
+    Author: Randy Cramer
+*/
+body {
+    background-color: white;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+h1 {
+    background-color: orange;
+    color: black;
+    font-size: 2.5em;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    word-spacing: .5em;
+}
+
+h2 {
+    background-color: chocolate;
+    color: white;
+}
+
+p{
+    color: saddlebrown;
+    text-indent: 3em;
+    line-height: 1.5em;
+}
+
+footer{
+    color: saddlebrown;
+    background-color: palegoldenrod;
+    font-size: .7em;
+    text-align: center;
+}
+
+a {
+    color: orange;
+    font-size: 1.5em;
+    text-decoration: none;
+}
