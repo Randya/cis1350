@@ -1,0 +1,31 @@
+body {
+    font-size: 1.2em;
+    font-family: Verdana, Arial, sans-serif;
+    line-height: 1.25em;
+    background: blanchedalmond url(images/parchment.jpg);
+}
+
+img{
+    float: left;
+    margin: 0 10px 10px 0;
+}
+
+.clear{
+    clear: both;
+}
+
+h1 {
+    letter-spacing: 0.2em;
+    word-spacing: 0.2em;
+    text-align: center;
+    padding-top: 1.5em;
+}
+
+h3 {
+    border-bottom: solid thick saddlebrown;
+    padding-bottom: 0.5em;
+}
+
+ul li{
+    list-style: circle;
+}
