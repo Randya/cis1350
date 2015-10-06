@@ -1,0 +1,89 @@
+/* body */
+
+ body{
+     background-color: darkslategray;
+     background-image: url(images/grey_texture.jpg);
+     color: white;
+     font-size: 1.1em;
+     font-family: Verdana, sans-serif;
+ }
+
+ h1{
+     background-color: black;
+     margin: 0 0 0 10px;
+     padding: 4px;
+     text-align: center;
+ }
+
+ h2{
+     background-color: gray;
+     margin: 10px 0 0 10px;
+     padding: 4px;
+     text-align: center;
+ }
+
+ h3{
+     border-bottom: solid thick darkkhaki;
+     padding-bottom: 0.5em;
+ }
+
+ h4 {
+     background-image: url(images/green_linen.jpg);
+     background-color: yellow;
+     display: inline;
+     padding: 4px;
+     color: black
+ }
+
+ img{
+     float: left;
+     margin: 0 10px 10px 0;
+ }
+
+ img.right{
+     border: double thick black;
+     float: right;
+     margin: 10px 0 10px 10px;
+ }
+
+ .clear {
+     clear: both;
+ }
+
+ ul.facts {
+     line-height: 1.4em;
+     list-style-type: none;
+     padding: 0;
+     margin-left: 1em;
+ }
+
+ ul.facts li {
+     background: url(images/small_elephant.jpg) black 0.3em no-repeat;
+     padding-left: 60px;
+     line-height: 2.5em;
+ }
+
+ a:link {
+     color: orange;
+     text-decoration: none;
+ }
+
+ a:hover {
+     color: black;
+     background-color: darkkhaki;
+     text-decoration: underline;
+ }
+
+ a:visited {
+     color: maroon;
+ }
+
+ footer {
+     background-image: url(images/green_linen.jpg);
+     background-color: yellow;
+     color: black;
+     padding: 4px;
+     text-align: center;
+     font-size: 1.1em;
+     display: block;
+ }
