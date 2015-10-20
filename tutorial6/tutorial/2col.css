@@ -1,0 +1,57 @@
+/*Two column layout Css*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+}
+#container {
+    width: 930px;
+    border-width: 1px;
+    margin: 0 auto;
+    background-color: navy;
+}
+header {
+    width: 910px;
+    margin: 0 0 10px 0;
+    padding: 10px;
+    background-color: yellow;
+}
+nav {
+    width: 910px;
+    margin: 0 0 10px 0;
+    padding: 10px;
+    background-color: silver;
+}
+nav li {
+    display: inline;
+    list-style-type: none;
+    padding-right: 40px;
+}
+aside {
+    width: 200px;
+    margin: 0 10px 10px 0;
+    padding: 10px;
+    background-color: orange;
+    float: left;
+    height: 400px;
+}
+#main {
+    width: 680px;
+    margin: 0 0 10px 0;
+    padding: 10px;
+    background-color: aqua;
+    float: right;
+    height: 400px;
+}
+footer {
+    width: 910px;
+    padding: 10px;
+    background-color: lime;
+    clear: both;
+    height: 75px;
+}
