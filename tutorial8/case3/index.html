@@ -4,15 +4,61 @@
 
   <!--
     Tutorial 8, Case 3
-    Your Name:
-    Today's Date:
+    Your Name: Randy Cramer
+    Today's Date: 10/28/2015
   -->
 
   <script src="modernizr-2.js"></script>
   <title>Baxter Lake Community College</title>
   <style type="text/css">
 
-    
+body {
+    background: #ffffff;
+    font-size: 1.2em;
+    font-family: "Times New Roman", Times, serif;
+}
+
+header, h1 {
+    text-align: center;
+}
+
+a {
+    color: maroon;
+    font-size: 1.1em;
+    text-decoration: none;
+    padding: 4px;
+}
+
+.clear {
+    clear: both;
+}
+
+table {
+    width: 50%;
+    margin: 2px 10px 8px 0;
+    border: solid thin navy;
+    border-collapse: collapse;
+    float: left;
+}
+
+td, th {
+    border: solid thin black;
+    padding: 4px;
+}
+
+caption {
+    padding: 4px;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    background-color: green;
+}
+
+col.date {
+    color: white;
+    background: gray;
+}
+
   </style>
 
 </head>
@@ -22,7 +68,7 @@
     <p><img src="images/baxterlogo.jpg" alt="Baxter Lake Community College logo" /></p>
   </header>
 
-  <h1>Baxter Lake Community College
+  <h1 id="top">Baxter Lake Community College
   <br /><em>The College for Education</em></h1>
 
   <h2>Our Philosophy of Teaching</h2>
@@ -36,19 +82,19 @@
   <ul>
     <li>Preference for learning alone, in small groups, or in large groups.</li>
     <li>Preference for observation vs. participation.</li>
-    <li>Preference for immersion.</li> 
+    <li>Preference for immersion.</li>
     <li>Use of visuals.</li>
   </ul>
 
-  <p>Cognizant of the differences in student learning styles and being aware that each student acquires information differently, we take learning differences into account by varying the methods and approaches used. An eclectic teaching methodology must, therefore, prevail &ndash; to teach one way is the wrong way. Common principles followed here include:</p>  
+  <p>Cognizant of the differences in student learning styles and being aware that each student acquires information differently, we take learning differences into account by varying the methods and approaches used. An eclectic teaching methodology must, therefore, prevail &ndash; to teach one way is the wrong way. Common principles followed here include:</p>
 
 
-  <table>
+  <table title="Baxter Community College Academic Calendar">
 
     <caption>Important Dates</caption>
 
     <colgroup>
-      <col />
+      <col class="date" />
       <col />
     </colgroup>
 
@@ -88,19 +134,18 @@
   <h3>Encourage Student-Teacher Dialogue</h3>
   <p>Faculty make every effort to provide time for discussion of class problems. By discussing common problems with the students before the lesson begins, students see that others make errors and that making errors should not lead to a lessening of self-esteem.</p>
 
-  <h3>Maintain Good Student Rapport</h3>
+  <h3 class="clear">Maintain Good Student Rapport</h3>
   <p>Faculty strive at all times to encourage thinking as opposed to memorization. Memorization is required only when necessary. Instead, students are taught cognitive problem solving. When these students enter the business workforce, they will be required to exhibit creativity, to show the ability to solve problems, and to demonstrate sound decision making. Because of these impending job requirements, students must learn how to extrapolate what has been learned in the classroom so that they can apply their current learning to new situations. Students learn not to be teacher-dependent for the right answers because they can apply a transfer of existing learning that will give them the 'knowledge tools' for solving future problems.</p>
 
 
   <h3>Motivate Students to Learn</h3>
-  <p>Faculty are generous with deserved praise for a job well done; as a result, students get a sense of achievement, belonging, and a feeling of satisfaction.</p> 
+  <p>Faculty are generous with deserved praise for a job well done; as a result, students get a sense of achievement, belonging, and a feeling of satisfaction.</p>
 
 
   <h3>Do You Want to be in Our Program?</h3>
-  <p>If the answer is yes, please contact our Admissions Office.</p> 
-  <p>Visit the National Education Association Web site.</p>
-  <p>Back to Top</p>
+  <p>If the answer is yes, please contact our <a href="admit.htm">Admissions Office.</a></p>
+  <p>Visit the <a href="http://www.nea.org">National Education Association Web site.</a></p>
+  <p><a href="#top">Back to Top</a></p>
 
 </body>
 </html>
-
