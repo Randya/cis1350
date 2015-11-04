@@ -1,0 +1,40 @@
+header h1, header nav, section nav.vertical, footer {
+    display: none;
+}
+
+header {
+    background: rgb(18, 15, 12) url(tblogo_sm.png) center center no-repeat;
+    -o-background-size: contain;
+    -moz_background-size: contain;
+    -webkit-background-size: contain;
+    background-size: contain;
+
+    height: 50px;
+    width: 100%;
+}
+figure figcaption {
+    font-size: 12px;
+    text-align: center;
+}
+
+/*mobile styles for portait orientation*/
+@media screen and (orientation: portrait) {
+    secion#main nav {
+        float: left;
+        width: 20%;
+    }
+
+    figure img {
+        width: 100%;
+    }
+}
+
+@media screen and (orientation: landscape) {
+    section#main nav {
+        width: 100%;
+    }
+
+    figure img {
+        width: 100%;
+    }
+}
